@@ -1,8 +1,175 @@
 apiVersion: v1
 entries:
+  ibm-drupal-dev:
+  - appVersion: 8.6.9
+    created: 2019-04-23T23:23:30.57424446-07:00
+    description: One of the most versatile open source content management systems.
+    digest: d486e1583741e8b14958b31ef948db6f4f3f7e107935680a199f82d5a55f6cd0
+    engine: gotpl
+    keywords:
+    - drupal
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    - ppc64le
+    - Tools
+    - Beta
+    - Limited
+    - ICP
+    kubeVersion: '>=1.7.0'
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: ibm-drupal-dev
+    sources:
+    - https://github.com/bitnami/bitnami-docker-drupal
+    tillerVersion: '>=2.7.2'
+    urls:
+    - https://nailushapotnuru.github.io/singlenodeICP/ibm-drupal-dev-0.10.0.tgz
+    version: 0.10.0
+  ibm-filebeat-dev:
+  - apiVersion: v1
+    appVersion: 5.5.1
+    created: 2019-04-23T23:23:30.577293638-07:00
+    description: A Helm chart to collect Kubernetes logs with filebeat
+    digest: 933464ff0c1bf674df5e0a16bff6f837ca193a65ae4ab9a80cf5ef33ab97ace7
+    home: https://www.elastic.co/products/beats/filebeat
+    icon: https://www.elastic.co/assets/blt47799dcdcf08438d/logo-elastic-beats-lt.svg
+    keywords:
+    - filebeat
+    - Limited
+    - ppc64le
+    - Tools
+    - ICP
+    - Beta
+    kubeVersion: '>=1.7.0'
+    maintainers:
+    - email: pete.brown@powerhrg.com
+      name: rendhalver
+    - email: shane.starcher@gmail.com
+      name: sstarcher
+    name: ibm-filebeat-dev
+    sources:
+    - https://www.elastic.co/guide/en/beats/filebeat/current/index.html
+    tillerVersion: '>=2.7.2'
+    urls:
+    - https://nailushapotnuru.github.io/singlenodeICP/ibm-filebeat-dev-0.1.1.tgz
+    version: 0.1.1
+  ibm-joomla-dev:
+  - appVersion: 3.9.3
+    created: 2019-04-23T23:23:30.606130891-07:00
+    description: PHP content management system (CMS) for publishing web content
+    digest: 57eaf2e6e9dae6b34c78f3ae40d36898a73838d9c3d290dc6660fd78d95245eb
+    engine: gotpl
+    home: http://www.joomla.org/
+    icon: https://bitnami.com/assets/stacks/joomla/img/joomla-stack-220x234.png
+    keywords:
+    - joomla
+    - cms
+    - blog
+    - http
+    - php
+    - ppc64le
+    - Beta
+    - Limited
+    - OpenSource
+    - ICP
+    - Tools
+    kubeVersion: '>=1.7.0'
+    maintainers:
+    - email: containers@bitnami.com
+      name: Bitnami
+    name: ibm-joomla-dev
+    sources:
+    - https://github.com/bitnami/bitnami-docker-joomla
+    tillerVersion: '>=2.7.2'
+    urls:
+    - https://nailushapotnuru.github.io/singlenodeICP/ibm-joomla-dev-0.3.0.tgz
+    version: 0.3.0
+  ibm-magic-namespace-dev:
+  - apiVersion: v1
+    appVersion: 2.9.1
+    created: 2019-04-23T23:23:30.609086103-07:00
+    description: Elegantly enables a Tiller per namespace in RBAC-enabled clusters
+    digest: 7e216b64821c873efa275c6c7c1be7bc985f412df07b0536ed2972dea90da6ed
+    home: https://github.com/kubernetes/charts/tree/master/stable/magic-namespace
+    keywords:
+    - magic-namespace
+    - Limited
+    - ppc64le
+    - Tools
+    - ICP
+    - Beta
+    kubeVersion: '>=1.7.0'
+    maintainers:
+    - email: kent.rancourt@microsoft.com
+      name: krancour
+    name: ibm-magic-namespace-dev
+    sources:
+    - https://github.com/helm/charts/tree/master/stable/magic-namespace
+    tillerVersion: '>=2.7.2'
+    urls:
+    - https://nailushapotnuru.github.io/singlenodeICP/ibm-magic-namespace-dev-0.3.0.tgz
+    version: 0.3.0
+  ibm-matomo-dev:
+  - appVersion: 5.1.0
+    created: 2019-04-23T23:23:30.635735222-07:00
+    description: Web publishing platform for building blogs and websites.
+    digest: 1786431b7ef9186be38843803fe3444c60ae4cf7a327466403778b118b7b5756
+    engine: gotpl
+    home: http://www.matomo.com/
+    icon: https://bitnami.com/assets/stacks/matomo/img/matomo-stack-220x234.png
+    keywords:
+    - matomo
+    - cms
+    - blog
+    - http
+    - web
+    - application
+    - php
+    - Limited
+    - Beta
+    - ppc64le
+    - ICP
+    - Tools
+    kubeVersion: '>=1.7.0'
+    maintainers:
+    - email: pnailush@in.ibm.com
+      name: Nailusha
+    name: ibm-matomo-dev
+    sources:
+    - https://github.com/matomo-org/docker
+    tillerVersion: '>=2.7.2'
+    urls:
+    - https://nailushapotnuru.github.io/singlenodeICP/ibm-matomo-dev-0.3.0.tgz
+    version: 0.3.0
+  ibm-vault-dev:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2019-04-23T23:23:30.637978483-07:00
+    description: A Helm chart for Kubernetes to manage the secrets.
+    digest: ceb0799e2797165007c6da9345bc288ca83116b41270c31cdce5b0bc3fafff77
+    icon: https://hub.docker.com/r/ibmcom/vault-ppc64le/
+    keywords:
+    - vault
+    - Limited
+    - Beta
+    - ppc64le
+    - runtime
+    - ICP
+    - Tools
+    kubeVersion: '>=1.7.0'
+    name: ibm-vault-dev
+    tillerVersion: '>=2.7.2'
+    urls:
+    - https://nailushapotnuru.github.io/singlenodeICP/ibm-vault-dev-0.1.0.tgz
+    version: 0.1.0
   ibm-wordpress-dev:
   - appVersion: 5.1.0
-    created: 2019-04-23T22:55:51.693652755-07:00
+    created: 2019-04-23T23:23:30.665566351-07:00
     description: Web publishing platform for building blogs and websites.
     digest: 67b453c0b5e117a1b429bd05a471c7caf42f70cf18f45f4062f2ba551a62aae5
     engine: gotpl
@@ -32,4 +199,4 @@ entries:
     urls:
     - https://nailushapotnuru.github.io/singlenodeICP/ibm-wordpress-dev-0.3.0.tgz
     version: 0.3.0
-generated: 2019-04-23T22:55:51.669902864-07:00
+generated: 2019-04-23T23:23:30.54541576-07:00
