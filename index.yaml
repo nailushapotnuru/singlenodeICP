@@ -2,7 +2,7 @@ apiVersion: v1
 entries:
   ibm-drupal-dev:
   - appVersion: 8.6.9
-    created: 2019-05-07T22:49:28.759482512-07:00
+    created: 2019-05-07T23:45:52.487718936-07:00
     description: One of the most versatile open source content management systems.
     digest: d486e1583741e8b14958b31ef948db6f4f3f7e107935680a199f82d5a55f6cd0
     engine: gotpl
@@ -33,9 +33,9 @@ entries:
   ibm-etcd-operator-dev:
   - apiVersion: v1
     appVersion: 0.7.0
-    created: 2019-05-07T22:49:28.763293073-07:00
+    created: 2019-05-07T23:45:52.495184927-07:00
     description: CoreOS etcd-operator Helm chart for Kubernetes
-    digest: 82cd3708e00f5c1a5c018148ccabd285c16f5f7f43363c0144e62ed403a7e53d
+    digest: 660021cdf3760a7e0821acedfd702468ee6794fd437d267bdf8143f565e3301d
     home: https://github.com/coreos/etcd-operator
     icon: https://raw.githubusercontent.com/ppc64le/charts/master/logo/etcd-horizontal-color.png
     keywords:
@@ -59,7 +59,7 @@ entries:
   ibm-filebeat-dev:
   - apiVersion: v1
     appVersion: 5.5.1
-    created: 2019-05-07T22:49:28.768897821-07:00
+    created: 2019-05-07T23:45:52.498480746-07:00
     description: A Helm chart to collect Kubernetes logs with filebeat
     digest: 933464ff0c1bf674df5e0a16bff6f837ca193a65ae4ab9a80cf5ef33ab97ace7
     home: https://www.elastic.co/products/beats/filebeat
@@ -86,7 +86,7 @@ entries:
     version: 0.1.1
   ibm-joomla-dev:
   - appVersion: 3.9.3
-    created: 2019-05-07T22:49:28.796808431-07:00
+    created: 2019-05-07T23:45:52.526118198-07:00
     description: PHP content management system (CMS) for publishing web content
     digest: 57eaf2e6e9dae6b34c78f3ae40d36898a73838d9c3d290dc6660fd78d95245eb
     engine: gotpl
@@ -118,7 +118,7 @@ entries:
   ibm-magic-namespace-dev:
   - apiVersion: v1
     appVersion: 2.9.1
-    created: 2019-05-07T22:49:28.800621265-07:00
+    created: 2019-05-07T23:45:52.529770982-07:00
     description: Elegantly enables a Tiller per namespace in RBAC-enabled clusters
     digest: 7e216b64821c873efa275c6c7c1be7bc985f412df07b0536ed2972dea90da6ed
     home: https://github.com/kubernetes/charts/tree/master/stable/magic-namespace
@@ -142,7 +142,7 @@ entries:
     version: 0.3.0
   ibm-matomo-dev:
   - appVersion: 5.1.0
-    created: 2019-05-07T22:49:28.84813872-07:00
+    created: 2019-05-07T23:45:52.559834335-07:00
     description: Web publishing platform for building blogs and websites.
     digest: 1786431b7ef9186be38843803fe3444c60ae4cf7a327466403778b118b7b5756
     engine: gotpl
@@ -175,7 +175,7 @@ entries:
   ibm-vault-dev:
   - apiVersion: v1
     appVersion: "1.0"
-    created: 2019-05-07T22:49:28.852651514-07:00
+    created: 2019-05-07T23:45:52.561879628-07:00
     description: A Helm chart for Kubernetes to manage the secrets.
     digest: ceb0799e2797165007c6da9345bc288ca83116b41270c31cdce5b0bc3fafff77
     icon: https://hub.docker.com/r/ibmcom/vault-ppc64le/
@@ -195,7 +195,7 @@ entries:
     version: 0.1.0
   ibm-wordpress-dev:
   - appVersion: 5.1.0
-    created: 2019-05-07T22:49:28.885492471-07:00
+    created: 2019-05-07T23:45:52.588891952-07:00
     description: Web publishing platform for building blogs and websites.
     digest: 67b453c0b5e117a1b429bd05a471c7caf42f70cf18f45f4062f2ba551a62aae5
     engine: gotpl
@@ -225,4 +225,4 @@ entries:
     urls:
     - https://nailushapotnuru.github.io/singlenodeICP/ibm-wordpress-dev-0.3.0.tgz
     version: 0.3.0
-generated: 2019-05-07T22:49:28.732205231-07:00
+generated: 2019-05-07T23:45:52.453245352-07:00
